@@ -1,0 +1,217 @@
+[  +14 ms] executing: sysctl hw.optional.arm64
+[   +3 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[   +2 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] executing: [/Users/ammarzeineh/development/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[  +10 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-06-10 15:52:41 -0700
+[  +14 ms] executing: sysctl hw.optional.arm64
+[   +2 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[ +143 ms] Exit code 0 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] Xcode 26.5
+           Build version 17F42
+[        ] executing: /usr/bin/arch -arm64e xcrun xcdevice list --timeout 5
+[   +2 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +12 ms] executing: /Users/ammarzeineh/Library/Android/sdk/platform-tools/adb devices -l
+[        ] executing: /usr/bin/arch -arm64e xcrun xcdevice list --timeout 2
+[        ] executing: /usr/bin/arch -arm64e xcrun simctl list devices booted
+[  +85 ms] /usr/bin/arch -arm64e xcrun simctl list devices booted iOS --json
+[        ] executing: /usr/bin/arch -arm64e xcrun simctl list devices booted iOS --json
+[  +18 ms] List of devices attached
+[  +65 ms] {
+             "devices" : {
+               "com.apple.CoreSimulator.SimRuntime.iOS-26-5" : [
+                 {
+                   "lastBootedAt" : "2026-06-23T20:03:10Z",
+                   "dataPath" : "\/Users\/ammarzeineh\/Library\/Developer\/CoreSimulator\/Devices\/AA436974-BC9B-4FA3-AB07-346C678ABFBD\/data",
+                   "dataPathSize" : 2677514240,
+                   "logPath" : "\/Users\/ammarzeineh\/Library\/Logs\/CoreSimulator\/AA436974-BC9B-4FA3-AB07-346C678ABFBD",
+                   "udid" : "AA436974-BC9B-4FA3-AB07-346C678ABFBD",
+                   "isAvailable" : true,
+                   "logPathSize" : 200704,
+                   "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro",
+                   "state" : "Booted",
+                   "name" : "iPhone 17 Pro"
+                 }
+               ],
+               "com.apple.CoreSimulator.SimRuntime.iOS-26-4" : [
+
+               ]
+             }
+           }
+[+2488 ms] [
+             {
+               "ignored" : false,
+               "modelCode" : "Mac16,12",
+               "simulator" : false,
+               "modelName" : "MacBook Air",
+               "operatingSystemVersion" : "26.5.1 (25F80)",
+               "identifier" : "00008132-000869462ED9801C",
+               "platform" : "com.apple.platform.macosx",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : true,
+               "name" : "My Mac",
+               "modelUTI" : "com.apple.macbookair-13-2025"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.5 (23F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,1",
+               "identifier" : "AA436974-BC9B-4FA3-AB07-346C678ABFBD",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-2",
+               "modelName" : "iPhone 17 Pro",
+               "name" : "iPhone 17 Pro",
+               "ignored" : false
+             }
+           ]
+[   +1 ms] executing: /usr/bin/arch -arm64e xcrun devicectl --version
+[  +52 ms] executing: /usr/bin/arch -arm64e xcrun devicectl list devices --timeout 5 --json-output /var/folders/7j/jp633khj18d300gz8_0n149w0000gn/T/flutter_tools.1iNeDG/core_devices.KPnts6/core_device_list.json
+[  +37 ms] {
+             "info" : {
+               "arguments" : [
+                 "devicectl",
+                 "list",
+                 "devices",
+                 "--timeout",
+                 "5",
+                 "--json-output",
+                 "/var/folders/7j/jp633khj18d300gz8_0n149w0000gn/T/flutter_tools.1iNeDG/core_devices.KPnts6/core_device_list.json"
+               ],
+               "commandType" : "devicectl.list.devices",
+               "environment" : {
+                 "TERM" : "xterm-256color"
+               },
+               "jsonVersion" : 3,
+               "outcome" : "success",
+               "version" : "518.31"
+             },
+             "result" : {
+               "devices" : [
+
+               ]
+             }
+           }
+
+[   +2 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[   +4 ms] [1/3] iOS SDK
+[        ]   ├─ [1/3] ios
+[+1949 ms] Content https://storage.googleapis.com/flutter_infra_release/flutter/77e2e94772b6eb43759e34ed1ad7da4674e19cab/ios/artifacts.zip md5 hash: 8UV+F5vl2Q2WZ5MDsq47Lw==
+[ +957 ms] [
+             {
+               "ignored" : false,
+               "modelCode" : "Mac16,12",
+               "simulator" : false,
+               "modelName" : "MacBook Air",
+               "operatingSystemVersion" : "26.5.1 (25F80)",
+               "identifier" : "00008132-000869462ED9801C",
+               "platform" : "com.apple.platform.macosx",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : true,
+               "name" : "My Mac",
+               "modelUTI" : "com.apple.macbookair-13-2025"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.5 (23F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,1",
+               "identifier" : "AA436974-BC9B-4FA3-AB07-346C678ABFBD",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-2",
+               "modelName" : "iPhone 17 Pro",
+               "name" : "iPhone 17 Pro",
+               "ignored" : false
+             }
+           ]
+[        ] executing: /usr/bin/arch -arm64e xcrun devicectl list devices --timeout 5 --json-output /var/folders/7j/jp633khj18d300gz8_0n149w0000gn/T/flutter_tools.1iNeDG/core_devices.VSODow/core_device_list.json
+[  +53 ms] {
+             "info" : {
+               "arguments" : [
+                 "devicectl",
+                 "list",
+                 "devices",
+                 "--timeout",
+                 "5",
+                 "--json-output",
+                 "/var/folders/7j/jp633khj18d300gz8_0n149w0000gn/T/flutter_tools.1iNeDG/core_devices.VSODow/core_device_list.json"
+               ],
+               "commandType" : "devicectl.list.devices",
+               "environment" : {
+                 "TERM" : "xterm-256color"
+               },
+               "jsonVersion" : 3,
+               "outcome" : "success",
+               "version" : "518.31"
+             },
+             "result" : {
+               "devices" : [
+
+               ]
+             }
+           }
+
+[+430968 ms] executing: sw_vers -productName
+[  +18 ms] Exit code 0 from: sw_vers -productName
+[        ] macOS
+[        ] executing: sw_vers -productVersion
+[   +9 ms] Exit code 0 from: sw_vers -productVersion
+[        ] 26.5.1
+[        ] executing: sw_vers -buildVersion
+[   +8 ms] Exit code 0 from: sw_vers -buildVersion
+[        ] 25F80
+[        ] executing: uname -m
+[   +4 ms] Exit code 0 from: uname -m
+[        ] arm64
+[   +5 ms] Running 3 shutdown hooks
+[        ] Shutdown hooks complete
+[        ] exiting with code 0
